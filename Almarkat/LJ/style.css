@@ -1,0 +1,60 @@
+:root{
+    --one:#d30534
+
+    ;
+}
+
+.navbar-nav{
+   background: #f3f2f2;
+}
+
+ .icon{
+    background: var(--one);
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    color: #fff;
+ }
+ .home h2{
+    color: #eeeeee;
+    font-size: 24px;
+ }
+
+ .home p{
+   color: #eeeeee;
+   
+ }
+ .btnn{
+    background: var(--one);
+    border-radius: 7px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    font: 24px;
+ }
+ .bttn{
+   background-color: var(--one);
+ }
+
+/* about */
+.about{
+   background-image: url(https://i.postimg.cc/hGM31DxY/1.jpg);
+   height: 70vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.about .container {
+   background: #fff;
+   padding: 20px;
+   width: 90%;
+   border-radius: 9px;
+}
+
+.kay{
+   display: none;
+}
